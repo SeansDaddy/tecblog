@@ -22,6 +22,15 @@ interface Post {
 
 const POSTS: Post[] = [
     {
+    id: '23',
+    title: 'DiagnosGraph：知识图谱+单智能体架构的储能电站故障诊断实践',
+    date: '2026-05-10',
+    excerpt: 'DiagnosGraph 是一个通用图谱诊断框架，储能作示例场景。核心设计：单智能体 + 知识图谱检索 + YAML 查表处置 + LLM 因果推理。四条设计原则，零业务依赖，换 YAML 就能适配新领域。',
+    category: 'AI Agent',
+    tags: ['储能', '知识图谱', 'AI Agent', '故障诊断', '工业AI'],
+    slug: 'graphdiagnosis-energy-storage-fault-diagnosis-architecture',
+  },
+    {
     id: '22',
     title: 'Hermes 的 Skill 机制：从原理到执行',
     date: '2026-05-09',
