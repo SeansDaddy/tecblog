@@ -22,6 +22,15 @@ interface Post {
 
 const POSTS: Post[] = [
     {
+    id: '24',
+    title: '前端运行后端技术：原理与实践调研',
+    date: '2026-05-12',
+    excerpt: '浏览器里跑 Python、跑 Linux、甚至跑 ESP32 固件——这些听起来像天方夜谭，但已经有成熟的技术方案在生产环境使用。从 WebAssembly 运行时到二进制翻译，从嵌入式固件 mock 到远程终端架构，调研了三条技术路径和各自的代表项目。',
+    category: 'Frontend',
+    tags: ['WebAssembly', '前端技术', '后端模拟', '嵌入式仿真', 'Pyodide', 'WebVM'],
+    slug: 'frontend-backend-emulation-technologies',
+  },
+    {
     id: '23',
     title: 'DiagnosGraph：知识图谱+单智能体架构的储能电站故障诊断实践',
     date: '2026-05-10',
