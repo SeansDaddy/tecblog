@@ -22,6 +22,15 @@ interface Post {
 
 const POSTS: Post[] = [
     {
+    id: '25',
+    title: '开源框架适配事件：各角色合理运作框架',
+    date: '2026-05-13',
+    excerpt: '当大型平台方、框架官方、个人贡献者、外包服务商围绕一个开源框架适配项目同场博弈时，信息不对称加上缺乏前置沟通机制，几乎必然导致信任崩塌。本文从真实事件中抽离出通用框架，为四类角色提供可操作的行为准则。',
+    category: 'Thoughts',
+    tags: ['开源', '社区运营', '商业合作', '生态治理', '方法论'],
+    slug: 'open-source-framework-adaptation-collaboration-guide',
+  },
+    {
     id: '24',
     title: '前端运行后端技术：原理与实践调研',
     date: '2026-05-12',
