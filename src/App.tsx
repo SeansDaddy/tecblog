@@ -30,7 +30,16 @@ const POSTS: Post[] = [
     tags: ['开源', '社区运营', '商业合作', '生态治理', '方法论'],
     slug: 'open-source-framework-adaptation-collaboration-guide',
   },
-    {
+  {
+    id: '26',
+    title: 'Claude Mythos 深度调研：Anthropic 最强模型与网络安全攻防转折点',
+    date: '2026-05-13',
+    excerpt: 'Anthropic 最强通用模型 Mythos 在漏洞挖掘与自动化利用方面触及网络安全史上前所未有的临界点——发现 OpenBSD 隐藏 27 年的漏洞，Firefox 漏洞利用成功率从前代近乎零跃升至 72.4%，单次成本不足 50 美元。本文从技术能力、发布背景、Project Glasswing 联盟、行业冲击、争议与启示六个维度，深度解析这个震动华尔街和华盛顿的 AI 事件。',
+    category: 'AI工具',
+    tags: ['Anthropic', 'Claude', 'Mythos', '网络安全', 'AI Agent', '深度调研'],
+    slug: 'claude-mythos-deep-research',
+  },
+  {
     id: '24',
     title: '前端运行后端技术：原理与实践调研',
     date: '2026-05-12',
