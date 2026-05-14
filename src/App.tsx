@@ -238,6 +238,15 @@ const POSTS: Post[] = [
     slug: 'wss-vs-webhook-comparison',
   },
   {
+    id: '27',
+    title: 'Kata 沙箱安全风险深度分析',
+    date: '2026-05-14',
+    excerpt: '深度剖析 Kata Containers 沙箱在多租户场景下的安全风险，从侧信道攻击、VM 逃逸、凭证管理等维度给出完整风险矩阵和防护建议。',
+    category: '安全',
+    tags: ['安全', '容器', 'Kata Containers', '云原生'],
+    slug: 'kata-sandbox-security-risks',
+  },
+  {
     id: '1',
     title: 'Hermes Agent 子 Agent 架构与 API Key 配置',
     date: '2026-04-22',
@@ -266,7 +275,7 @@ const getArchiveCounts = () => {
   return counts;
 };
 
-const CATEGORIES = ['基础设施', 'Design', 'AI Agent', '架构设计', '规范标准', 'AI工具', 'Backend', 'Frontend', 'Tools', 'DevOps', 'Thoughts'];
+const CATEGORIES = ['基础设施', 'Design', 'AI Agent', '架构设计', '规范标准', 'AI工具', 'Backend', 'Frontend', 'Tools', 'DevOps', 'Thoughts', '安全'];
 const ARCHIVES = ['2026', '2025', '2024', '2023'];
 
 // --- Navbar ---
