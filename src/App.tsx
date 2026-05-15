@@ -22,6 +22,15 @@ interface Post {
 
 const POSTS: Post[] = [
     {
+    id: '28',
+    title: '微信数据库密钥攻防：从内存扫描到安全编码实践',
+    date: '2026-05-15',
+    excerpt: '本文深入分析开源工具 wx-cli 获取微信本地数据库密钥的技术原理——从进程内存扫描到 Salt 匹配再到 AES-256-CBC 解密，并从防御角度提出消除字符串字面量、密钥不持久化、硬件安全模块等多层次加固方案。',
+    category: '安全',
+    tags: ['安全研究', 'SQLCipher', '内存安全', 'Rust', '隐私保护'],
+    slug: 'wechat-sqlcipher-security-analysis',
+  },
+    {
     id: '25',
     title: '开源框架适配事件：各角色合理运作框架',
     date: '2026-05-13',
