@@ -22,6 +22,15 @@ interface Post {
 
 const POSTS: Post[] = [
     {
+    id: '29',
+    title: '用 HeyGen HyperFrames 做 HTML 视频：渲染管线实战复盘',
+    date: '2026-05-18',
+    excerpt: '复盘一次完整的 HyperFrames HTML 视频生产过程——从 GSAP 时间轴设计，到 Playwright 截图降级方案，再到背景音乐混音的几个典型坑。记录 emoji 黑框、音频流匹配、ffmpeg 7.0 xfade 语法变更等实际遇到的问题和解决思路。',
+    category: 'AI工具',
+    tags: ['HyperFrames', 'HTML视频', 'GSAP', 'ffmpeg', 'Playwright'],
+    slug: 'heygen-hyperframes-video-production-pipeline',
+  },
+    {
     id: '28',
     title: 'SQLCipher 数据库密钥的内存扫描攻防：技术原理与安全编码实践',
     date: '2026-05-15',
