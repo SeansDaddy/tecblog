@@ -22,6 +22,15 @@ interface Post {
 
 const POSTS: Post[] = [
     {
+    id: '30',
+    title: '时序异常检测与故障预测：算法综述与选型指南',
+    date: '2026-05-20',
+    excerpt: '从统计方法（ARIMA/STL/CUSUM）到经典机器学习（Isolation Forest/XGBoost），再到深度学习（LSTM-AE/TCN/Informer），以及工业界 SRE 监控、IoT 故障预测、新能源异常检测的组合实践。',
+    category: 'AI Agent',
+    tags: ['时序分析', '异常检测', '故障预测', '算法综述', '机器学习', '深度学习'],
+    slug: 'time-series-anomaly-detection',
+  },
+    {
     id: '29',
     title: '用 HeyGen HyperFrames 做 HTML 视频：渲染管线实战复盘',
     date: '2026-05-18',
