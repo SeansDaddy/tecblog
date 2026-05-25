@@ -22,6 +22,15 @@ interface Post {
 
 const POSTS: Post[] = [
     {
+    id: '31',
+    title: 'AI Agent Hook 机制：从原理到实践',
+    date: '2026-05-25',
+    excerpt: 'AI Agent 的 Hook 机制，本质上是事件驱动的生命周期拦截——在 Agent 执行路径的各个节点插入自定义逻辑。覆盖 OpenClaw Hook 系统和 Hermes 类比机制，与 LangChain Callback 对比。',
+    category: 'AI Agent',
+    tags: ['AI Agent', 'Hook', 'OpenClaw', 'Hermes', '事件驱动'],
+    slug: 'ai-agent-hook-mechanisms',
+  },
+    {
     id: '30',
     title: '时序异常检测与故障预测：算法综述与选型指南',
     date: '2026-05-20',
