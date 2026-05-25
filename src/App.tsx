@@ -22,6 +22,15 @@ interface Post {
 
 const POSTS: Post[] = [
     {
+    id: '32',
+    title: 'OpenClaw 非侵入式集成：企业多租户 AI 平台的架构思路',
+    date: '2026-05-25',
+    excerpt: '如何在外挂模式下把 AI 能力接入企业平台？聚焦认证透传、多租隔离、能力边界、三层流控、定时任务权限委托五个关键设计点。',
+    category: 'AI Agent',
+    tags: ['OpenClaw', 'AI Agent', '架构设计', '多租户', '外挂模式'],
+    slug: 'openclaw-non-intrusive-integration',
+  },
+    {
     id: '31',
     title: 'AI Agent Hook 机制：从原理到实践',
     date: '2026-05-25',
